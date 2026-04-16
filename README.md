@@ -49,7 +49,7 @@ cd SOEN-357
 npm install 
 
 ### 3. Run the development server 
-npm run dev 
+npm run dev  
 npm run build 
 
 
