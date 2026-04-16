@@ -5,6 +5,7 @@ import { History } from "../components/History";
 import { getSessions, getLastSession, formatDuration } from "../utils/storage";
 import { Session } from "../types";
 import { Play, Star } from "lucide-react";
+import { ProgressChart } from "../components/ProgressChart";
 
 
 export function Dashboard() {
@@ -128,7 +129,10 @@ export function Dashboard() {
           </form>
         </div>
 
-        <History sessions={sessions} />
+        <div className="grid gap-6 md:grid-cols-2">
+  <ProgressChart sessions={sessions} />
+  <History sessions={sessions} />
+</div>
       </div>
     </div>
   );
