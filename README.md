@@ -75,8 +75,6 @@ Behavioral support
 -Custom focus session durations
 -Categorized interruption tracking
 
-## video demo 
-
 
 
 
